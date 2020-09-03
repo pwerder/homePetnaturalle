@@ -4,74 +4,122 @@
         <title>Home &middot; Petnaturalle</title>
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <nav id="menu">
-            <ul>
-                <li><a href="#"><img src="img/nome.png" alt=""></a></li>
-                <li><a href=”#”>INÍCIO</a></li>
-                <li><a href=”#”>SOBRE</a></li>
-                <li><a href=”#”>MEDICINA INTEGRATIVA</a></li>
-                <li><a href=”#”>SERVIÇOS</a></li>
-                <li><a href=”#”>AGENDE</a></li>
-                <li><a href=”#”>CONTATO</a></li>
-                <li><img src="img/logo.png" height="50px"></li>
-            </ul>
-        </nav>
-
-        <header>
-            <h1>Olá, seja muito bem-vindo(a) ao nosso site</h1>
-            <p>Aqui você encontra informações sobre a clínica, nossa médica veterinária e os serviços que oferecemos!</p>
+    <body>  
+ 
+        <header class="header">
+            <a href="#"><img src="./img/nome.png" alt="Petnaturalle"></a>
+            <nav>
+                <ul class="menu">
+                    <li><a href=”#”>INÍCIO</a></li>
+                    <li><a href=”#”>SOBRE</a></li>
+                    <li><a href=”#”>MEDICINA INTEGRATIVA</a></li>
+                    <li><a href=”#”>SERVIÇOS</a></li>
+                    <li><a href=”#”>AGENDE</a></li>
+                    <li><a href=”#”>CONTATO</a></li>
+                </ul>
+            </nav>
+            <a href="#"><img src="./img/logo.png" alt="Logo Petnaturalle" width="80px"></a>
         </header>
 
+        <section class="bem-vindo">
+            <h1>Olá, seja muito bem-vindo(a) ao nosso site</h1>
+            <hr>
+            <p>Aqui você encontra informações sobre a clínica, nossa médica veterinária e os serviços que oferecemos!</p>
+        </section>       
+        
+        <section class="slide">
+            <img src="./img/slide.png" alt="Slider">
+        </section>
+        
         <main>
-            <h2>Sobre a Clínica Petnaturalle</h2>
-            <p>A clínica veterinária Petnaturalle surgiu com o intuito de proporcionar qualidade de vida aos animais, por meio da Nutrição adequada e cuidados básicos …</p>
+            
+            <div>
+                <img src="./img/cachorroEGato.png" alt="">
+                <h2>Sobre a Clínica Petnaturalle</h2>
+                <p>A clínica veterinária Petnaturalle surgiu com o intuito de proporcionar qualidade de vida aos animais, por meio da Nutrição adequada e cuidados básicos …</p>
+                <a href="#">Saiba mais</a>
+            </div>
 
-            <h2>M.V. Karina Affonso Bernardo</h2>
-            <p>Médica veterinária com atuação em Clínica Geral e Nutrologia de cães e gatos. Tem como objetivo trazer o equilíbrio entre a vida urbana e a qualidade de vida …</p>
-        </main>
+            <div>
+                <img src="./img/cachorroEGato.png" alt="">
+                <h2>M.V. Karina Affonso Bernardo</h2>
+                <p>Médica veterinária com atuação em Clínica Geral e Nutrologia de cães e gatos. Tem como objetivo trazer o equilíbrio entre a vida urbana e a qualidade de vida …</p>
+                <a href="#">Saiba mais</a>
+            </div>
 
-        <article>
-            <h1>Medicina Integrativa</h1>
-            <p>“Orientação para a cura levando em consideração o indivíduo como um todo, incluindo todos os aspectos de sua vida.”</p>
+        </main>     
+        
+        <article class="medicina-integrativa">
 
-            <p>A Medicina Integrativa busca identificar e abordar as causas da doença, considerando o corpo um sistema integrado e não uma coleção de órgãos independentes divididos por especialidades médicas.</p>
-            <p>Durante a consulta, o médico passa um certo tempo com seus pacientes, conhecendo suas histórias e observando as interações entre fatores genéticos, ambientais e estilo de vida, que podem influenciar a saúde a longo prazo e doenças crônicas complexas.</p>
+            <div>
+                <h1>Medicina Integrativa</h1>
+                <hr>
+                <p>“Orientação para a cura levando em consideração o indivíduo como um todo, incluindo todos os aspectos de sua vida.”</p>
+            </div>
+
+            <div>
+                <p>A Medicina Integrativa busca identificar e abordar as causas da doença, considerando o corpo um sistema integrado e não uma coleção de órgãos independentes divididos por especialidades médicas.</p>
+                <p>Durante a consulta, o médico passa um certo tempo com seus pacientes, conhecendo suas histórias e observando as interações entre fatores genéticos, ambientais e estilo de vida, que podem influenciar a saúde a longo prazo e doenças crônicas complexas.</p>
+            </div>
+        
         </article>
-
-        <section>
+        
+        <section class="servicos">
             <h1>Conheça nossos serviços </h1>
+            <ul>
+                <li><a href="#">Nutrologia</a></li>
+                <li><a href="#">Clínica Geral</a></li>
+                <li><a href="#">Vacinas</a></li>
+                <li><a href="#">Exames</a></li>
+            </ul>
         </section>
-
-        <section>
-            <h1>Agende Nossos Serviços</h1>
-            <p>Consultas clínica e nutrologia, vacinas e exames.</p>
+         
+        <section class="agende">
+            <div>
+                <img src="./img/cruz.png" alt="">
+            </div>
+            <div>
+                <h1>Agende Nossos Serviços</h1>
+                <p>Consultas clínica e nutrologia, vacinas e exames.</p>
+                <a href="#">Aqui</a>
+            </div>
         </section>
-
-        <section>
+        
+        <section class="comentario">
+            
             <h1>Comentários</h1>
+            <div>
+                <p>Paçoca</p>
+                <p>Tutora – Tatiane de Valois</p>
+                <p>“Quando soube que ia ganhar um gato fui pesquisar o que precisava fazer pra que ele se sentisse o mais próximo possível das coisas que eram naturais pra ele e dessas buscas descobri a importância da alimentação natural. Sou vegetariana há 10 anos mas entendi a necessidade do Paçoca comer carne. Fui buscar casos de sucesso com AN e encontrei muitos, a partir daí essa era uma decisão tomada.
+                A Ka foi indicação e amo o trabalho dela, super dedicada, sempre buscando o melhor para adaptar o que deixa o Paçoca mais feliz. Pronta a todo tempo tem me suportado muito desde a transição e agora adaptação do meu felino.”</p>
 
-            <p>Paçoca</p>
-
-            <p>Tutora – Tatiane de Valois</p>
-
-            <p>“Quando soube que ia ganhar um gato fui pesquisar o que precisava fazer pra que ele se sentisse o mais próximo possível das coisas que eram naturais pra ele e dessas buscas descobri a importância da alimentação natural. Sou vegetariana há 10 anos mas entendi a necessidade do Paçoca comer carne. Fui buscar casos de sucesso com AN e encontrei muitos, a partir daí essa era uma decisão tomada.
-            A Ka foi indicação e amo o trabalho dela, super dedicada, sempre buscando o melhor para adaptar o que deixa o Paçoca mais feliz. Pronta a todo tempo tem me suportado muito desde a transição e agora adaptação do meu felino.”</p>
-
-            <p>Bebel</p>
-
-            <p>Tutora – Deise Tappi</p>
-
-            <p>“Agradeço muito a Dra Karina que com sua competência me ensinou como aplicar na prática a comida balanceada e natural para a minha cachorrinha Bebel. Desde que comecei a seguir as orientações percebi melhora no pêlo e o quanto ela fica mais feliz ao se alimentar. Muito obrigada Dra Ka por toda atenção e comprometimento.”</p>
-
-            <p>Gandalf e Rasputin</p>
-
-            <p>Tutor – Rafael de Lima</p>
-
-            <p>“Foi fundamental para mim conhecer a Karina e seu trabalho home care. Gandalf e Rasputin se sentiram super a vontade, e olha que davam trabalho quando iam em veterinário. Mas me surpreendi positivamente! O que mostra a delicadeza e profissionalismo dedicados e com a facilidade de estar na sua própria casa, o que os meus filhos também curtiram. Certamente não terei dúvidas quando precisarmos de assistência. Obrigado Karina!“</p>
+            </div>
+            
+            <div>
+                <p>Bebel</p>
+                
+                <p>Tutora – Deise Tappi</p>
+                
+                <p>“Agradeço muito a Dra Karina que com sua competência me ensinou como aplicar na prática a comida balanceada e natural para a minha cachorrinha Bebel. Desde que comecei a seguir as orientações percebi melhora no pêlo e o quanto ela fica mais feliz ao se alimentar. Muito obrigada Dra Ka por toda atenção e comprometimento.”</p>
+            </div>
+            
+            <div>
+                <p>Gandalf e Rasputin</p>
+                
+                <p>Tutor – Rafael de Lima</p>
+                
+                <p>“Foi fundamental para mim conhecer a Karina e seu trabalho home care. Gandalf e Rasputin se sentiram super a vontade, e olha que davam trabalho quando iam em veterinário. Mas me surpreendi positivamente! O que mostra a delicadeza e profissionalismo dedicados e com a facilidade de estar na sua própria casa, o que os meus filhos também curtiram. Certamente não terei dúvidas quando precisarmos de assistência. Obrigado Karina!“</p>
+            </div>
+            
         </section>
-
+        
+        <footer></footer>
+        
+        <!-- 
+        
         <section>
             <h1>Contato</h1>
             <ul>
@@ -109,5 +157,8 @@
         <section>
             <h1>Redes Sociais</h1>
         </section>
+
+
+         -->
     </body>
 </html>

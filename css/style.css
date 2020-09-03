@@ -1,28 +1,217 @@
-li {
-    list-style-type: none;
-}
-
-a {
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     text-decoration: none;
 }
 
-nav {
-    margin-left: 5px;
-    margin-right: 5px;
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
 }
 
-nav li a {
+h1, h2{
+    font-family: 'Lobster', cursive;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
     color: #f8b204;
 }
 
-#menu ul {
-    padding: 0px;
-    margin: 0px;
+.bem-vindo {
+    background-color: #D9D9D9;
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+    color: #3A3A3A;
 }
 
-#menu ul li { display: inline;}
+.bem-vindo>hr {
+    border-style: solid;
+    width: 4rem;
+    margin: auto;
+}
 
-#menu ul li a {
-    padding: 2px 10px;
-    display: inline-block;
+.bem-vindo>h1   {
+    margin-top: 4px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.bem-vindo>p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.slide {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+main>div{
+    width: 300px;
+    margin: 10px 6rem;
+}
+
+main>div:nth-child(1)
+{
+    background-color: #B1C448;
+}
+
+main>div:nth-child(2)
+{
+    background-color: #FFCE33;
+}
+
+main>div>h2 {
+    font-weight: normal;
+    margin: 10px;
+}
+
+main>div>p {
+    line-height: 2rem;
+}
+
+main>div>a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin: 10px 90px;
+}
+
+.medicina-integrativa {
+    margin: 5rem 8rem;
+    padding: 10px;
+    border: 4px dotted #A0D050;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.medicina-integrativa>div {
+    padding: 1rem 0;
+}
+
+.medicina-integrativa>div>h1 {
+    font-size: 2rem;
+    color: #A0D050;
+    font-weight: 100;
+}
+
+.medicina-integrativa>div>p {
+    padding: 10px;
+    line-height: 2rem;
+}
+
+.medicina-integrativa>div>hr {
+    border-style: solid;
+    width: 2rem;
+    margin: 10px auto;
+}
+
+
+.medicina-integrativa>div:nth-child(1) {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.medicina-integrativa>div:nth-child(2) {
+    width: 70rem;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.servicos {
+    text-align: center;
+}
+
+.servicos>h1 {
+    font-size: 2.4rem;
+    color: #83817F;
+}
+
+
+.servicos>ul {
+    margin: 4rem 20rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
+.servicos>ul>li>a {
+    font-size: 2rem;
+    display: block;
+    padding: 2rem;
+    color: #FFFFFF;
+    background-color: #FFCE33;
+    border: 3px dotted #D9D9D9;
+}
+
+.agende {
+    display: flex;
+    justify-content: space-between;
+    background-color: #B1C448;
+    color: #FFFFFF;
+    text-align: center;
+    height: 12rem;
+    align-items: center;
+    padding: 50 10em;
+    margin-bottom: 20px;
+}
+
+.agende>div>h1 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.agende>div>a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin: 10px 9rem;
+}
+
+
+
+footer {
+    height: 200px;
+    background-color: tomato;
 }
